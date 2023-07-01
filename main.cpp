@@ -11,11 +11,12 @@ int main(int, char**) {
 	io io;
 	std::vector<std::string> path;
 	std::vector<int> label;
-	path.push_back("C:/Users/ZhouZishun/OneDrive/documents/MasterDoc/ANU/semester4/8535/cifar-10-batches-bin/data_batch_1.bin");
-	path.push_back("C:/Users/ZhouZishun/OneDrive/documents/MasterDoc/ANU/semester4/8535/cifar-10-batches-bin/data_batch_2.bin");
-	path.push_back("C:/Users/ZhouZishun/OneDrive/documents/MasterDoc/ANU/semester4/8535/cifar-10-batches-bin/data_batch_3.bin");
-	path.push_back("C:/Users/ZhouZishun/OneDrive/documents/MasterDoc/ANU/semester4/8535/cifar-10-batches-bin/data_batch_4.bin");
-	path.push_back("C:/Users/ZhouZishun/OneDrive/documents/MasterDoc/ANU/semester4/8535/cifar-10-batches-bin/data_batch_5.bin");
+	//download from https://www.cs.toronto.edu/~kriz/cifar.html
+	path.push_back("./cifar-10-batches-bin/data_batch_1.bin");
+	path.push_back("./cifar-10-batches-bin/data_batch_2.bin");
+	path.push_back("./cifar-10-batches-bin/data_batch_3.bin");
+	path.push_back("./cifar-10-batches-bin/data_batch_4.bin");
+	path.push_back("./cifar-10-batches-bin/data_batch_5.bin");
 	label.push_back(0);//airplane
 	label.push_back(4);//deer
 	label.push_back(7);//horse
